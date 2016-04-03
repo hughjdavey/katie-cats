@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="primary" type="color">#FFC107</item>
+    <item name="primaryDark" type="color">#FFA000</item>
+    <item name="primaryLight" type="color">#FFECB3</item>
+
+    <item name="textIcons" type="color">#212121</item>
+    <item name="primaryText" type="color">#212121</item>
+    <item name="secondaryText" type="color">#727272</item>
+
+    <item name="dividerColor" type="color">#B6B6B6</item>
+    <item name="accent" type="color">#FF4081</item>
+
+    <!-- -->
+    <color name="green">#75cd00</color>
+    <color name="green_dark">#3c6e02</color>
+    <color name="blue">#0044e1</color>
+    <color name="blue_dark">#00217c</color>
+    <color name="red">#d11e2c</color>
+    <color name="red_dark">#810f19</color>
+    <color name="gray">#b6b1ac</color>
+    <color name="gray_dark">#6d6967</color>
+    <color name="black">#000000</color>
+    <color name="black_pressed">#7b7b7b</color>
+</resources>

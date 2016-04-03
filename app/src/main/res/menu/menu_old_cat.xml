@@ -1,0 +1,21 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".OldCatsActivity" >
+
+    <item android:id="@+id/old_cat_wallpaper"
+        android:title="Set as wallpaper"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/old_cat_share"
+        android:title="Share..."
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/old_cat_delete"
+        android:title="Delete"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

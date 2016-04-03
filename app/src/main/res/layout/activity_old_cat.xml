@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".OldCatActivity" >
+
+    <ImageView
+        android:id="@+id/down_circle_contract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/expanding_circle_down"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/my_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimaryDark" />
+
+    <RelativeLayout
+        android:layout_below="@+id/my_toolbar"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/old_cat_imageview"
+            android:adjustViewBounds="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/old_cat_error_text"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="You have no saved cats! Save some in the app to see them here."
+            android:textColor="@color/accent"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="100sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
